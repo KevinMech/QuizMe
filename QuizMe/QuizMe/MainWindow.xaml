@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizMe"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="QuizMe" Height="300" Width="300" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" Content="Start A Quiz"/>
+        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0" Content="Create/Edit Quiz" />
+        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,180,0,0" Content="Exit" />
     </Grid>
 </Window>
