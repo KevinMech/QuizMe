@@ -1,0 +1,14 @@
+﻿<Window x:Class="QuizMe.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizMe"
+        mc:Ignorable="d"
+        Title="EditWindow" Height="600" Width="800">
+    <Grid>
+        <Label Content="Name" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,40,0,0" Width="500" Height="20" />
+        <Button Content="Save" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="30" Width="100" Margin="10"/>
+    </Grid>
+</Window>

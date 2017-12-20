@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.SQLite;
+using System.IO;
 
 namespace QuizMe
 {
@@ -35,7 +37,6 @@ namespace QuizMe
             ListWindow window = new ListWindow();
             window.Owner = this;
             window.Show();
-
         }
     }
 }

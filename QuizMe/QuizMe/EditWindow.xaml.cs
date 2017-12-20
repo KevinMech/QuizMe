@@ -11,24 +11,17 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.Data.SQLite;
 
 namespace QuizMe
 {
     /// <summary>
-    /// Interaction logic for ListWindow.xaml
+    /// Interaction logic for EditWindow.xaml
     /// </summary>
-    public partial class ListWindow : Window
+    public partial class EditWindow : Window
     {
-        public ListWindow()
+        public EditWindow()
         {
             InitializeComponent();
-        }
-
-        private void btnNew_Click(object sender, RoutedEventArgs e)
-        {
-            EditWindow editWindow = new EditWindow();
-            editWindow.Show();
         }
     }
 }
