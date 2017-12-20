@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizMe"
         mc:Ignorable="d"
-        Title="QuizMe" Height="300" Width="300" WindowStartupLocation="CenterScreen">
-    <Grid>
-        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" Content="Start A Quiz" />
-        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0" Content="Create/Edit Quiz" Click="Button_Click" />
-        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,180,0,0" Content="Exit" />
+        Title="QuizMe" Height="280" Width="250" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF5CAB8A">
+        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" Content="Start A Quiz" Background="#FFBADEBA" />
+        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0" Content="Create/Edit Quiz" Click="Button_Click" Background="#FFBADEBA" />
+        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,180,0,0" Content="Exit" Background="#FFC4C977" />
+        <Label Content="QuizMe" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="15" FontSize="24" FontFamily="Franklin Gothic Book" BorderBrush="#FF7F8545" FontStyle="Italic"/>
     </Grid>
 </Window>
