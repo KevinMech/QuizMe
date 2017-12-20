@@ -36,7 +36,7 @@ namespace QuizMe
         {
             ListWindow window = new ListWindow();
             window.Owner = this;
-            window.Show();
+            window.ShowDialog();
         }
     }
 }
