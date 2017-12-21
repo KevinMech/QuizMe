@@ -28,15 +28,14 @@ namespace QuizMe
         }
 
         /// <summary>
-        /// 
+        /// Display list form when edit button is clicked
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Button_Click(object sender, RoutedEventArgs e)
+        /// <param name="sender">sender</param>
+        /// <param name="e">event</param>
+        private void btnEdit_Click(object sender, RoutedEventArgs e)
         {
             ListWindow window = new ListWindow();
-            window.Owner = this;
-            window.ShowDialog();
+            window.Show();
         }
     }
 }

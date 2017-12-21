@@ -25,10 +25,17 @@ namespace QuizMe
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Display edit form when edit button is clicked
+        /// </summary>
+        /// <param name="sender">sender</param>
+        /// <param name="e">event</param>
         private void btnNew_Click(object sender, RoutedEventArgs e)
         {
             EditWindow editWindow = new EditWindow();
             editWindow.Show();
+            Application.Current.MainWindow.Close();
+            this.Close();
         }
     }
 }

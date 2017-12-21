@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="QuizMe" Height="280" Width="250" WindowStartupLocation="CenterScreen">
     <Grid Background="#FF5CAB8A">
-        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" Content="Start A Quiz" Background="#FFBADEBA" />
-        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0" Content="Create/Edit Quiz" Click="Button_Click" Background="#FFBADEBA" />
-        <Button Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,180,0,0" Content="Exit" Background="#FFC4C977" />
+        <Button x:Name="btnStart" Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" Content="Start A Quiz" Background="#FFBADEBA" />
+        <Button x:Name="btnEdit" Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0" Content="Create/Edit Quiz" Background="#FFBADEBA" Click="btnEdit_Click" />
+        <Button x:Name="btnExit" Width="150" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,180,0,0" Content="Exit" Background="#FFC4C977" />
         <Label Content="QuizMe" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="15" FontSize="24" FontFamily="Franklin Gothic Book" BorderBrush="#FF7F8545" FontStyle="Italic"/>
     </Grid>
 </Window>

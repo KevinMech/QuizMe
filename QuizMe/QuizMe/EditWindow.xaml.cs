@@ -23,5 +23,11 @@ namespace QuizMe
         {
             InitializeComponent();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            ListWindow listWindow = new ListWindow();
+            listWindow.Show();
+        }
     }
 }

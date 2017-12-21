@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizMe"
         mc:Ignorable="d"
-        Title="ListWindow" Height="350" Width="300" WindowStartupLocation="CenterOwner">
+        Title="List" Height="350" Width="300" WindowStartupLocation="CenterScreen">
     <Grid Background="#FF5CAB8A">
         <ListBox Margin="10" VerticalAlignment="Top" Height="260"/>
         <Button x:Name="btnNew" Width="100" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Content="New" Click="btnNew_Click" Background="#FFBADEBA"/>
