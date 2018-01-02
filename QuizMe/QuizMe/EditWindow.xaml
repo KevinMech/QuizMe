@@ -5,10 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizMe"
         mc:Ignorable="d"
-        Title="EditWindow" Height="600" Width="800" Closing="Window_Closing">
-    <Grid>
-        <Label Content="Name" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" />
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,40,0,0" Width="500" Height="20" />
-        <Button Content="Save" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="30" Width="100" Margin="10"/>
+        Title="EditWindow" Height="700" Width="800" Closing="Window_Closing" Loaded="Window_Loaded">
+    <Grid Background="#FF5CAB8A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="300*"/>
+            <RowDefinition Height="30*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Name" HorizontalAlignment="Center" Margin="5" Grid.Row="0"/>
+        <TextBox x:Name="txtName" TextAlignment="Center" Width="200" VerticalAlignment="Bottom" Margin="10" Grid.Row="0"/>
+        <DataGrid x:Name="gridQuizForm" ItemsSource="{Binding}" AutoGenerateColumns="True" Margin="10" Grid.Row="1"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="100" Grid.Row="2"/>
     </Grid>
 </Window>
